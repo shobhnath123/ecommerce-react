@@ -1,5 +1,5 @@
 import React from "react";
-
+import ContacUsImge from "../../../aboutus/contactus.webp";
 const ContactUs = () => {
   return (
     <div className="mt-14 mb-12">
@@ -19,7 +19,7 @@ const ContactUs = () => {
           {/* Image Map Section */}
           <div data-aos="fade-right">
             <img
-              src="https://via.placeholder.com/500"
+              src={ContacUsImge}
               alt="Location Map"
               className="w-full h-auto rounded-md"
             />
