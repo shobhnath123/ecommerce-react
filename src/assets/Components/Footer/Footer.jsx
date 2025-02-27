@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as link } from "react-router-hash-link";
 // import footerLogo from "../../assets/logo.png";
 // import Banner from "../../assets/website/footer-pattern.jpg";
 import { FiShoppingBag } from "react-icons/fi";
@@ -115,11 +116,11 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaMapLocationDot />
-                  <p>Indore, Madhya Pradesh</p>
+                  <p>Sant Kabir Nagar, Uttar Pradesh</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <IoCall />
-                  <p>+91 123456789</p>
+                  <p>+91 9918990731</p>
                 </div>
               </div>
             </div>

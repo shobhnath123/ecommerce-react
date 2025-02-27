@@ -1,5 +1,5 @@
 import React from "react";
-
+import Abouus from "../../../aboutus/aboutus.webp";
 const AboutUs = () => {
   return (
     <div className="mt-14 mb-12">
@@ -19,7 +19,7 @@ const AboutUs = () => {
           {/* Image Section */}
           <div data-aos="fade-right">
             <img
-              src="https://via.placeholder.com/500"
+              src={Abouus}
               alt="About Us"
               className="w-full h-auto rounded-md"
             />
